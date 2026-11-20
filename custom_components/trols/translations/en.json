@@ -1,0 +1,67 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Select your tennis association",
+        "description": "Pick the TROLS association your club plays in. If it isn't listed, choose \"Other\" to enter it manually.",
+        "data": {
+          "association": "Association"
+        }
+      },
+      "association_other": {
+        "title": "Enter the association's TROLS code",
+        "description": "This is the short code trols.org.au uses in its web address, e.g. \"brta\" for https://trols.org.au/brta/",
+        "data": {
+          "association": "Association code"
+        }
+      },
+      "daytime": {
+        "title": "Select a competition",
+        "description": "Choose the day/time competition your team plays in.",
+        "data": {
+          "daytime": "Competition"
+        }
+      },
+      "section": {
+        "title": "Select a section",
+        "description": "Choose the grade/section your team plays in.",
+        "data": {
+          "section": "Section"
+        }
+      },
+      "team": {
+        "title": "Select your club/team",
+        "description": "Choose your team. Clubs with more than one team in a section (e.g. \"Blue\"/\"White\") are listed separately.",
+        "data": {
+          "team": "Club / Team"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach trols.org.au. Check your internet connection and try again.",
+      "invalid_association": "Couldn't find that association on trols.org.au. Check the code and try again."
+    },
+    "abort": {
+      "cannot_connect": "Could not reach trols.org.au. Check your internet connection and try again.",
+      "invalid_association": "Couldn't find that association on trols.org.au. Check the code and try again.",
+      "no_teams": "No teams were found for that section.",
+      "already_configured": "This team is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "next_match": {
+        "name": "Next match"
+      },
+      "ladder_position": {
+        "name": "Ladder position"
+      },
+      "points": {
+        "name": "Points"
+      },
+      "percentage": {
+        "name": "Percentage"
+      }
+    }
+  }
+}
